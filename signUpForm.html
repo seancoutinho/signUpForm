@@ -9,48 +9,59 @@
 </head>
 <body>
     <div class="container">
-        <div class="logo">
-            <!-- <img src="./img/halie-west.jpg" alt="odin background"> -->
+        <div class="logo"></div>
+        <div class="odin">
+            <img src="./img/odin-lined.png" alt="odin">
+            <h1>ODIN</h1>
         </div>
         <div class="form-section">
             <div class="intro">
                 <h1>This is not a real online service! You know you need something like this in your life
                     to help you realize your deepest dreams. Sign <em>up</em> now to get started <br><br>You know you want to.</h1>
             </div>
-            <h3>Let's do this!</h3>
-            <form action="#" method="post">
-                <ul class="names">
-                    <li>
-                        <label for="first-name">FIRST NAME</label>
-                        <input type="text" name="first-name" id="first-name">
-                    </li>
-                    <li>
-                        <label for="last-name">LAST NAME</label>
-                        <input type="text" name="last-name" id="last-name">
-                    </li>
-                </ul>
-                <ul class="emails">
-                    <li>
-                        <label for="email">EMAIL</label>
-                        <input type="email" name="email" id="email">
-                    </li>
-                    <li>
-                        <label for="phone-number">PHONE NUMBER</label>
-                        <input type="number">
-                    </li>
-                </ul>
-                <ul class="passwords">
-                    <li>
-                        <label for="password">PASSWORD</label>
-                        <input type="password" name="password" id="password">
-                    </li>
-                    <li>
-                        <label for="confirm-password">CONFIRM PASSWORD</label>
-                        <input type="password">
-                    </li>
-                </ul>
-            </form>
+            <div class="form-subsection">
+                <h1>Let's do this!</h1>
+                <form action="#" method="post">
+                    <ul class="names">
+                        <li>
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" name="first-name" id="first-name">
+                        </li>
+                        <li>
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" name="last-name" id="last-name">
+                        </li>
+                    </ul>
+                    <ul class="emails">
+                        <li>
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email" id="email">
+                        </li>
+                        <li>
+                            <label for="phone-number">PHONE NUMBER</label>
+                            <input type="number">
+                        </li>
+                    </ul>
+                    <ul class="passwords">
+                        <li>
+                            <label for="password">PASSWORD</label>
+                            <input type="password" name="password" id="password">
+                        </li>
+                        <li>
+                            <label for="confirm-password">CONFIRM PASSWORD</label>
+                            <input type="password">
+                        </li>
+                    </ul>
+                    <div class="account">
+                        <button class="create-account">Create Account</button>
+                        <h2>Already have an account? <a href="#">Login</a></h2>
+                    </div>
+                </form>
+            </div>
         </div>
+        
     </div>
+
+    <script src="./signUp.js"></script>
 </body>
 </html>
